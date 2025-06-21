@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: 'aaa',
-  description: 'xxx',
+  title: '寻宝资源库',
+  description: '资源宝藏',
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   sitemap: {
     hostname: 'https://xiaoxiaowuji.github.io'
@@ -16,15 +16,13 @@ export default defineConfig({
     },
     nav: [
       { text: '🏠 首页', link: '/' },
-      { text: '关于', link: '/docs/about' }
     ],
     sidebar: [
       {
-        text: 'xxx',
+        text: '资料',
         collapsed: false,
         items: [
-          { text: '前言', link: '/docs/side-hustle/preface' },
-          { text: 'xxx', link: '/docs/side-hustle/projects-done' }
+          { text: 'PPT', link: '/docs/material/ppt' }
         ]
       }
     ]

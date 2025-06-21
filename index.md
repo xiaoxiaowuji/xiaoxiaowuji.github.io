@@ -3,27 +3,18 @@
 layout: home
 
 hero:
-  name: 'xxx'
-  text: 'xxx'
-  tagline: xxx
+  name: '网盘资源库'
+  text: '寻宝'
   actions:
     - theme: brand
       text: 开始阅读
-      link: /docs/side-hustle/preface
-    - theme: alt
-      text: 关于
-      link: /docs/about
+      link: /docs/material/ppt
   image:
-    # src: /imgs/logo.png
+    src: /imgs/logo.png
     alt: logo
 
 features:
-  - title: xxx
-    details: xxx
-  - title: xxx
-    details: xxx
-  - title: xxx
-    details: xxx
-  - title: xxx
-    details: xxx
+  - title: 📚 教程
+  - title: 📄 资料
+  - title: 🤩 宝藏
 ---
