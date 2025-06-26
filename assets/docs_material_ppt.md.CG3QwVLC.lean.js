@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a}from"./chunks/framework.Cl5_4IdU.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"docs/material/ppt.md","filePath":"docs/material/ppt.md"}'),r={name:"docs/material/ppt.md"};function o(p,s,c,n,d,i){return a(),e("div")}const l=t(r,[["render",o]]);export{_ as __pageData,l as default};
