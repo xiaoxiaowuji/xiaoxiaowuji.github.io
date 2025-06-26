@@ -4,7 +4,21 @@ import { defineConfig } from 'vitepress';
 export default defineConfig({
   title: '寻宝资源库',
   description: '资源宝藏',
-  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    [
+      'script',
+      {
+        async: '',
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-E923H5FS25'
+      }
+    ],
+    [
+      'script',
+      {},
+      "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-E923H5FS25');"
+    ]
+  ],
   sitemap: {
     hostname: 'https://xiaoxiaowuji.github.io'
   },
@@ -14,16 +28,12 @@ export default defineConfig({
     outline: {
       label: '目录'
     },
-    nav: [
-      { text: '🏠 首页', link: '/' },
-    ],
+    nav: [{ text: '🏠 首页', link: '/' }],
     sidebar: [
       {
         text: '资料',
         collapsed: false,
-        items: [
-          { text: 'PPT', link: '/docs/material/ppt' }
-        ]
+        items: [{ text: 'PPT', link: '/docs/material/ppt' }]
       }
     ]
   }
