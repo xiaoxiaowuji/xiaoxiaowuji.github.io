@@ -33,7 +33,10 @@ export default defineConfig({
       {
         text: '资料',
         collapsed: false,
-        items: [{ text: 'PPT', link: '/docs/material/ppt' }]
+        items: [
+          { text: 'PPT', link: '/docs/material/ppt' },
+          { text: '合同/协议模板', link: '/docs/material/contract' }
+        ]
       }
     ]
   }
