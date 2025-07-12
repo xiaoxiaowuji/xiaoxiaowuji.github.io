@@ -10,7 +10,7 @@ hero:
       text: 开始阅读
       link: /docs/material/ppt
   image:
-    src: /imgs/logo.png
+    src: /logo.png
     alt: logo
 
 features:
