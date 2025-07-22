@@ -46,7 +46,9 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: 'PPT', link: '/docs/material/ppt' },
-          { text: '合同/协议 模板', link: '/docs/material/contract' }
+          { text: '合同/协议 模板1', link: '/docs/material/contract1' },
+          { text: '合同/协议 模板2', link: '/docs/material/contract2' },
+          { text: '合同/协议 模板3', link: '/docs/material/contract3' }
         ]
       }
     ]
